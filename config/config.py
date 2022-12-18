@@ -1,6 +1,13 @@
+from dotenv import load_dotenv
+load_dotenv()
+
+import os
+
 #
 # ? Bot
 # This is the prefix for the bot
+
+
 prefix = "?b "
 
 # This is the version of the bot
@@ -14,7 +21,7 @@ owner_id = 736533260263489587
 
 # If you do not know what your token is, you can get it on your bot's control panel page on
 # https://discordapp.com/developers/applications/me
-token = "MTA0NjEyODIwMDcxMjk5OTAxNQ.Gg8zPW.F2wSxTotrFZ9i75WCFm8DpoZrcjmn0CtKmq2wo"
+token = os.environ.get("DISCORD_TOKEN")
 
 # ? Colors
 colors = {
