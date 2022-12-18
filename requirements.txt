@@ -1,0 +1,17 @@
+aiohttp
+asyncio
+asyncpg
+colorlog
+# cowpy
+git+https://github.com/Rapptz/discord.py
+# ffmpeg
+googletrans == 3.1.0a0
+humanize
+git+https://github.com/erdewit/nest_asyncio
+# perspective
+Pillow
+psutil
+PyNaCl
+spotipy
+Wavelink
+youtube_dl
